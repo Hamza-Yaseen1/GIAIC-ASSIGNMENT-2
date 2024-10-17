@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Button, ConfigProvider, Flex } from 'antd';
+import { Button } from 'antd';
 function Hero() {
   return (
     <section className="hero flex relative">

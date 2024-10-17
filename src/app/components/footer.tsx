@@ -1,4 +1,3 @@
-import { Carousel } from 'antd';
 import Image from "next/image";
 
 import './footer.css';
@@ -11,8 +10,8 @@ const contentStyle: React.CSSProperties = {
   textAlign: 'center',
   background: '#364d79',
   marginTop :"50px",
-  fontSize: '24px',  // Increased font size for h3
-  fontWeight: 'bold',  // Bold text for h3
+  fontSize: '24px',  
+  fontWeight: 'bold',  
 };
 
 const Footer: React.FC = () => (
