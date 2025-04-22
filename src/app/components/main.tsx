@@ -7,7 +7,7 @@ import { Card } from 'antd';
 function Main() {
   return (
     <>
-      <div className="container relative top-48 flex flex-col items-center">
+      <div className="container relative  top-48 flex flex-col items-center">
         <h1 className="text-5xl text-center">New Arrivals</h1>
         <p className="text-center mt-7 leading-7">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus distinctio eius cum laboriosam. Odio aperiam, id voluptates cumque eaque veritatis voluptas</p>
         <section className="card flex flex-wrap justify-cente">
@@ -168,9 +168,10 @@ function Main() {
 
           </Card>
         </section>
-        <button className="bg-black h-12 w-52 text-white font-semibold py-3 px-6 mt-5 ml-7 rounded hover:bg-neutral-800 transition duration-300 ease-in-out">See More</button>
+        
 
       </div>
+      <button className="bg-black relative top-52 left-96 h-12 w-52 text-white font-semibold py-3 px-6 mt-5 rounded hover:bg-neutral-800 transition duration-300 ease-in-out">See More</button>
     </>
   );
 }
